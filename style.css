@@ -99,14 +99,15 @@
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    margin-block: 0;
-    border: 1px solid red;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* margin-block: 0; */
+    /* border: 1px solid red; */
 }
 
 html {
     background-color: whitesmoke;
+    font-family: Urbanist;
 }
 
 body {
@@ -116,23 +117,43 @@ body {
     background-color: #e76f51ff;
 }
 
+header h1 {
+    margin-top: 0;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
 section {
     width: 80%;
-    padding: 20px;
+    padding: 10px 20px;
     margin: 0 auto 20px;
     border: 2px solid gray;
     border-radius: 5px;
     background-color: #e1e2e1;
-    text-align: center;
+    /* text-align: center; */
+}
+
+section h1 {
+    margin: 0 0 10px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .swatch {
     display: inline-block;
     width: 15%;
-    height: 50px;
+    min-height: 80px;
     margin: 0 10px;
     border: 2px solid gray;
     border-radius: 5px;
+    vertical-align: top;
+}
+
+.hexcolour {
+    font-family: 'Source Code Pro';
 }
 
 #charcoal {
@@ -162,7 +183,15 @@ section {
 
 .sample {
     display: inline-block;
-    width: 40%;
+    width: 45%;
+    vertical-align: top;
+    margin: 0 2%;
+}
+
+.sample h2 {
+    text-align: left;
+    text-decoration: underline;
+    font-weight: 800;
 }
 
 .sample p {
@@ -185,18 +214,43 @@ section {
     font-style: italic;
 }
 
-#architects {
+.architects {
     font-family: 'Architects Daughter';
 }
 
-#monserrat {
+.monserrat {
     font-family: Montserrat;
 }
 
-#code {
+.code {
     font-family: 'Source Code Pro';
 }
 
-#urbanist {
+.urbanist {
     font-family: 'Urbanist';
+}
+
+li {
+    font-family: "Architects Daughter";
+}
+
+.page-heading {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-heading {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.section-sub-heading {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.normal-text {
+    font-family: "Architects Daughter";
+    font-size: 16px;
+    font-weight: 400px;
 }
